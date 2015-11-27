@@ -1,0 +1,1571 @@
+  [1m[36m (3.9ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL) [0m
+  [1m[35m (1.4ms)[0m  CREATE UNIQUE INDEX  "unique_schema_migrations" ON "schema_migrations"  ("version")
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/" for ::1 at 2015-11-21 15:50:13 +0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/hieupham/.rvm/gems/ruby-2.2.0@global/gems/railties-4.2.1/lib/rails/templates/rails/welcome/index.html.erb (1.7ms)
+Completed 200 OK in 20ms (Views: 11.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-11-21 15:51:01 +0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/hieupham/.rvm/gems/ruby-2.2.0@global/gems/railties-4.2.1/lib/rails/templates/rails/welcome/index.html.erb (1.4ms)
+Completed 200 OK in 16ms (Views: 7.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-11-21 15:51:04 +0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/hieupham/.rvm/gems/ruby-2.2.0@global/gems/railties-4.2.1/lib/rails/templates/rails/welcome/index.html.erb (0.0ms)
+Completed 200 OK in 4ms (Views: 2.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-11-21 15:51:05 +0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/hieupham/.rvm/gems/ruby-2.2.0@global/gems/railties-4.2.1/lib/rails/templates/rails/welcome/index.html.erb (0.0ms)
+Completed 200 OK in 4ms (Views: 2.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-11-21 15:52:44 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.7ms)
+Completed 200 OK in 1310ms (Views: 1309.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-11-21 15:52:45 +0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-21 15:52:45 +0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-21 15:52:45 +0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-21 15:52:45 +0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-11-21 15:52:45 +0700
+
+
+Started GET "/" for ::1 at 2015-11-21 15:57:46 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (2.6ms)
+Completed 200 OK in 610ms (Views: 602.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/react.self-e3da6ecd157473bf7f78ed580d04670fe5ba81b643601f0ef7fadf7af64823ba.js?body=1" for ::1 at 2015-11-21 15:57:47 +0700
+
+
+Started GET "/assets/components/home_widget.self-7e74033d4aabe142ec4e58eba1ed135c6c4dc3b3ab5614e02c1ee553de9b69b2.js?body=1" for ::1 at 2015-11-21 15:57:47 +0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-11-21 15:57:47 +0700
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for ::1 at 2015-11-21 15:57:47 +0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-21 15:57:47 +0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-21 15:57:47 +0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-21 15:57:47 +0700
+
+
+Started GET "/assets/react_ujs.self-c42e5ee44bcda6910afca6fb40f99d9963074b3aefe72365ce90c24312e73b2b.js?body=1" for ::1 at 2015-11-21 15:57:47 +0700
+
+
+Started GET "/assets/components.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2015-11-21 15:57:47 +0700
+
+
+Started GET "/" for ::1 at 2015-11-21 15:57:49 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.3ms)
+Completed 200 OK in 72ms (Views: 71.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-21 15:57:49 +0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-21 15:57:49 +0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-21 15:57:49 +0700
+
+
+Started GET "/assets/react_ujs.self-c42e5ee44bcda6910afca6fb40f99d9963074b3aefe72365ce90c24312e73b2b.js?body=1" for ::1 at 2015-11-21 15:57:49 +0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-11-21 15:57:49 +0700
+
+
+Started GET "/assets/react.self-e3da6ecd157473bf7f78ed580d04670fe5ba81b643601f0ef7fadf7af64823ba.js?body=1" for ::1 at 2015-11-21 15:57:49 +0700
+
+
+Started GET "/assets/components/home_widget.self-7e74033d4aabe142ec4e58eba1ed135c6c4dc3b3ab5614e02c1ee553de9b69b2.js?body=1" for ::1 at 2015-11-21 15:57:49 +0700
+
+
+Started GET "/assets/components.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2015-11-21 15:57:49 +0700
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for ::1 at 2015-11-21 15:57:49 +0700
+
+
+Started GET "/" for ::1 at 2015-11-21 15:58:26 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.2ms)
+Completed 200 OK in 215ms (Views: 214.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-11-21 15:58:26 +0700
+
+
+Started GET "/assets/react_ujs.self-c42e5ee44bcda6910afca6fb40f99d9963074b3aefe72365ce90c24312e73b2b.js?body=1" for ::1 at 2015-11-21 15:58:26 +0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-21 15:58:26 +0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-21 15:58:26 +0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-21 15:58:26 +0700
+
+
+Started GET "/assets/react.self-e3da6ecd157473bf7f78ed580d04670fe5ba81b643601f0ef7fadf7af64823ba.js?body=1" for ::1 at 2015-11-21 15:58:26 +0700
+
+
+Started GET "/assets/components/home_widget.self-7e74033d4aabe142ec4e58eba1ed135c6c4dc3b3ab5614e02c1ee553de9b69b2.js?body=1" for ::1 at 2015-11-21 15:58:26 +0700
+
+
+Started GET "/assets/components.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2015-11-21 15:58:26 +0700
+
+
+Started GET "/assets/global.self-9aecfd3ccf85c24cbe29ad852433e96438da2f3e1f0d21a27d2c155c2f65372d.js?body=1" for ::1 at 2015-11-21 15:58:26 +0700
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for ::1 at 2015-11-21 15:58:26 +0700
+
+
+Started GET "/" for ::1 at 2015-11-21 15:59:05 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (2.0ms)
+Completed 200 OK in 412ms (Views: 403.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-11-21 15:59:05 +0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-21 15:59:05 +0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-21 15:59:05 +0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-21 15:59:05 +0700
+
+
+Started GET "/assets/react.self-e3da6ecd157473bf7f78ed580d04670fe5ba81b643601f0ef7fadf7af64823ba.js?body=1" for ::1 at 2015-11-21 15:59:05 +0700
+
+
+Started GET "/assets/utils.self-9aecfd3ccf85c24cbe29ad852433e96438da2f3e1f0d21a27d2c155c2f65372d.js?body=1" for ::1 at 2015-11-21 15:59:05 +0700
+
+
+Started GET "/assets/react_ujs.self-c42e5ee44bcda6910afca6fb40f99d9963074b3aefe72365ce90c24312e73b2b.js?body=1" for ::1 at 2015-11-21 15:59:05 +0700
+
+
+Started GET "/assets/components/home_widget.self-7e74033d4aabe142ec4e58eba1ed135c6c4dc3b3ab5614e02c1ee553de9b69b2.js?body=1" for ::1 at 2015-11-21 15:59:05 +0700
+
+
+Started GET "/assets/components.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2015-11-21 15:59:06 +0700
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for ::1 at 2015-11-21 15:59:06 +0700
+
+
+Started GET "/" for ::1 at 2015-11-21 15:59:07 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.4ms)
+Completed 200 OK in 100ms (Views: 99.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-11-21 15:59:07 +0700
+
+
+Started GET "/assets/react.self-e3da6ecd157473bf7f78ed580d04670fe5ba81b643601f0ef7fadf7af64823ba.js?body=1" for ::1 at 2015-11-21 15:59:07 +0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-21 15:59:07 +0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-21 15:59:07 +0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-21 15:59:07 +0700
+
+
+Started GET "/assets/react_ujs.self-c42e5ee44bcda6910afca6fb40f99d9963074b3aefe72365ce90c24312e73b2b.js?body=1" for ::1 at 2015-11-21 15:59:07 +0700
+
+
+Started GET "/assets/components/home_widget.self-7e74033d4aabe142ec4e58eba1ed135c6c4dc3b3ab5614e02c1ee553de9b69b2.js?body=1" for ::1 at 2015-11-21 15:59:07 +0700
+
+
+Started GET "/assets/components.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2015-11-21 15:59:07 +0700
+
+
+Started GET "/assets/utils.self-9aecfd3ccf85c24cbe29ad852433e96438da2f3e1f0d21a27d2c155c2f65372d.js?body=1" for ::1 at 2015-11-21 15:59:07 +0700
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for ::1 at 2015-11-21 15:59:07 +0700
+
+
+Started GET "/" for ::1 at 2015-11-21 15:59:31 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.3ms)
+Completed 200 OK in 187ms (Views: 185.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-11-21 15:59:31 +0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-21 15:59:31 +0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-21 15:59:31 +0700
+
+
+Started GET "/assets/react_ujs.self-c42e5ee44bcda6910afca6fb40f99d9963074b3aefe72365ce90c24312e73b2b.js?body=1" for ::1 at 2015-11-21 15:59:31 +0700
+
+
+Started GET "/assets/react.self-e3da6ecd157473bf7f78ed580d04670fe5ba81b643601f0ef7fadf7af64823ba.js?body=1" for ::1 at 2015-11-21 15:59:31 +0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-21 15:59:31 +0700
+
+
+Started GET "/assets/components/home_widget.self-7e74033d4aabe142ec4e58eba1ed135c6c4dc3b3ab5614e02c1ee553de9b69b2.js?body=1" for ::1 at 2015-11-21 15:59:31 +0700
+
+
+Started GET "/assets/utils.self-59816bbcccdf6f9884753d3049900da2ef290cb70eff046f1975d86a7c4eee36.js?body=1" for ::1 at 2015-11-21 15:59:31 +0700
+
+
+Started GET "/assets/components.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2015-11-21 15:59:31 +0700
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for ::1 at 2015-11-21 15:59:31 +0700
+
+
+Started GET "/" for ::1 at 2015-11-21 15:59:56 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.3ms)
+Completed 200 OK in 71ms (Views: 70.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-11-21 15:59:56 +0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-21 15:59:56 +0700
+
+
+Started GET "/assets/react.self-e3da6ecd157473bf7f78ed580d04670fe5ba81b643601f0ef7fadf7af64823ba.js?body=1" for ::1 at 2015-11-21 15:59:56 +0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-21 15:59:56 +0700
+
+
+Started GET "/assets/react_ujs.self-c42e5ee44bcda6910afca6fb40f99d9963074b3aefe72365ce90c24312e73b2b.js?body=1" for ::1 at 2015-11-21 15:59:56 +0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-21 15:59:56 +0700
+
+
+Started GET "/assets/components/home_widget.self-7e74033d4aabe142ec4e58eba1ed135c6c4dc3b3ab5614e02c1ee553de9b69b2.js?body=1" for ::1 at 2015-11-21 15:59:56 +0700
+
+
+Started GET "/assets/components.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2015-11-21 15:59:56 +0700
+
+
+Started GET "/assets/utils.self-59816bbcccdf6f9884753d3049900da2ef290cb70eff046f1975d86a7c4eee36.js?body=1" for ::1 at 2015-11-21 15:59:56 +0700
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for ::1 at 2015-11-21 15:59:56 +0700
+
+
+Started GET "/" for ::1 at 2015-11-21 16:00:29 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.2ms)
+Completed 200 OK in 319ms (Views: 317.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-11-21 16:00:30 +0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-21 16:00:30 +0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-21 16:00:30 +0700
+
+
+Started GET "/assets/react.self-e3da6ecd157473bf7f78ed580d04670fe5ba81b643601f0ef7fadf7af64823ba.js?body=1" for ::1 at 2015-11-21 16:00:30 +0700
+
+
+Started GET "/assets/components/home_widget.self-c68d5b6af5e17656267fe1f4b131abbddc6d6bbacdb0961322cbc70265391c49.js?body=1" for ::1 at 2015-11-21 16:00:30 +0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-21 16:00:30 +0700
+
+
+Started GET "/assets/react_ujs.self-c42e5ee44bcda6910afca6fb40f99d9963074b3aefe72365ce90c24312e73b2b.js?body=1" for ::1 at 2015-11-21 16:00:30 +0700
+
+
+Started GET "/assets/components.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2015-11-21 16:00:30 +0700
+
+
+Started GET "/assets/utils.self-9aecfd3ccf85c24cbe29ad852433e96438da2f3e1f0d21a27d2c155c2f65372d.js?body=1" for ::1 at 2015-11-21 16:00:30 +0700
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for ::1 at 2015-11-21 16:00:30 +0700
+
+
+Started GET "/" for ::1 at 2015-11-21 16:00:33 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.3ms)
+Completed 200 OK in 81ms (Views: 80.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-11-21 16:00:33 +0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-21 16:00:33 +0700
+
+
+Started GET "/assets/react.self-e3da6ecd157473bf7f78ed580d04670fe5ba81b643601f0ef7fadf7af64823ba.js?body=1" for ::1 at 2015-11-21 16:00:33 +0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-21 16:00:33 +0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-21 16:00:33 +0700
+
+
+Started GET "/assets/react_ujs.self-c42e5ee44bcda6910afca6fb40f99d9963074b3aefe72365ce90c24312e73b2b.js?body=1" for ::1 at 2015-11-21 16:00:33 +0700
+
+
+Started GET "/assets/components/home_widget.self-c68d5b6af5e17656267fe1f4b131abbddc6d6bbacdb0961322cbc70265391c49.js?body=1" for ::1 at 2015-11-21 16:00:33 +0700
+
+
+Started GET "/assets/components.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2015-11-21 16:00:33 +0700
+
+
+Started GET "/assets/utils.self-9aecfd3ccf85c24cbe29ad852433e96438da2f3e1f0d21a27d2c155c2f65372d.js?body=1" for ::1 at 2015-11-21 16:00:33 +0700
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for ::1 at 2015-11-21 16:00:33 +0700
+
+
+Started GET "/" for ::1 at 2015-11-21 16:00:33 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.2ms)
+Completed 200 OK in 80ms (Views: 79.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-11-21 16:00:34 +0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-21 16:00:34 +0700
+
+
+Started GET "/assets/react.self-e3da6ecd157473bf7f78ed580d04670fe5ba81b643601f0ef7fadf7af64823ba.js?body=1" for ::1 at 2015-11-21 16:00:34 +0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-21 16:00:34 +0700
+
+
+Started GET "/assets/react_ujs.self-c42e5ee44bcda6910afca6fb40f99d9963074b3aefe72365ce90c24312e73b2b.js?body=1" for ::1 at 2015-11-21 16:00:34 +0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-21 16:00:34 +0700
+
+
+Started GET "/assets/components/home_widget.self-c68d5b6af5e17656267fe1f4b131abbddc6d6bbacdb0961322cbc70265391c49.js?body=1" for ::1 at 2015-11-21 16:00:34 +0700
+
+
+Started GET "/assets/components.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2015-11-21 16:00:34 +0700
+
+
+Started GET "/assets/utils.self-9aecfd3ccf85c24cbe29ad852433e96438da2f3e1f0d21a27d2c155c2f65372d.js?body=1" for ::1 at 2015-11-21 16:00:34 +0700
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for ::1 at 2015-11-21 16:00:34 +0700
+
+
+Started GET "/" for ::1 at 2015-11-21 16:03:11 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.2ms)
+Completed 200 OK in 279ms (Views: 278.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-11-21 16:03:11 +0700
+
+
+Started GET "/assets/components/home_widget.self-bd9d3d5844ba8fcfdda645820e1c4559e69268f7ba9a3de0e042ca6398c74129.js?body=1" for ::1 at 2015-11-21 16:03:11 +0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-21 16:03:11 +0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-21 16:03:11 +0700
+
+
+Started GET "/assets/react_ujs.self-c42e5ee44bcda6910afca6fb40f99d9963074b3aefe72365ce90c24312e73b2b.js?body=1" for ::1 at 2015-11-21 16:03:11 +0700
+
+
+Started GET "/assets/react.self-e3da6ecd157473bf7f78ed580d04670fe5ba81b643601f0ef7fadf7af64823ba.js?body=1" for ::1 at 2015-11-21 16:03:11 +0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-21 16:03:11 +0700
+
+
+Started GET "/assets/components.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2015-11-21 16:03:11 +0700
+
+
+Started GET "/assets/utils.self-9aecfd3ccf85c24cbe29ad852433e96438da2f3e1f0d21a27d2c155c2f65372d.js?body=1" for ::1 at 2015-11-21 16:03:11 +0700
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for ::1 at 2015-11-21 16:03:11 +0700
+
+
+Started GET "/" for ::1 at 2015-11-21 16:03:33 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.3ms)
+Completed 200 OK in 282ms (Views: 281.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-11-21 16:03:33 +0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-21 16:03:33 +0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-21 16:03:33 +0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-21 16:03:33 +0700
+
+
+Started GET "/assets/components/home_widget.self-5bda7ec56fbd1b76924012bc51d784835c95c2f444ddec78e83091a6a916b34c.js?body=1" for ::1 at 2015-11-21 16:03:33 +0700
+
+
+Started GET "/assets/react.self-e3da6ecd157473bf7f78ed580d04670fe5ba81b643601f0ef7fadf7af64823ba.js?body=1" for ::1 at 2015-11-21 16:03:33 +0700
+
+
+Started GET "/assets/react_ujs.self-c42e5ee44bcda6910afca6fb40f99d9963074b3aefe72365ce90c24312e73b2b.js?body=1" for ::1 at 2015-11-21 16:03:33 +0700
+
+
+Started GET "/assets/components.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2015-11-21 16:03:33 +0700
+
+
+Started GET "/assets/utils.self-9aecfd3ccf85c24cbe29ad852433e96438da2f3e1f0d21a27d2c155c2f65372d.js?body=1" for ::1 at 2015-11-21 16:03:33 +0700
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for ::1 at 2015-11-21 16:03:33 +0700
+
+
+Started GET "/" for ::1 at 2015-11-21 16:03:47 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.3ms)
+Completed 200 OK in 289ms (Views: 288.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-11-21 16:03:47 +0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-21 16:03:47 +0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-21 16:03:47 +0700
+
+
+Started GET "/assets/components/home_widget.self-4a54113ddfe3e29c60418ee66d3eb2384e7a6af0ca90abde559f18391b4d2067.js?body=1" for ::1 at 2015-11-21 16:03:47 +0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-21 16:03:47 +0700
+
+
+Started GET "/assets/react.self-e3da6ecd157473bf7f78ed580d04670fe5ba81b643601f0ef7fadf7af64823ba.js?body=1" for ::1 at 2015-11-21 16:03:47 +0700
+
+
+Started GET "/assets/react_ujs.self-c42e5ee44bcda6910afca6fb40f99d9963074b3aefe72365ce90c24312e73b2b.js?body=1" for ::1 at 2015-11-21 16:03:47 +0700
+
+
+Started GET "/assets/components.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2015-11-21 16:03:47 +0700
+
+
+Started GET "/assets/utils.self-9aecfd3ccf85c24cbe29ad852433e96438da2f3e1f0d21a27d2c155c2f65372d.js?body=1" for ::1 at 2015-11-21 16:03:47 +0700
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for ::1 at 2015-11-21 16:03:47 +0700
+
+
+Started GET "/" for ::1 at 2015-11-21 16:06:44 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.4ms)
+Completed 200 OK in 319ms (Views: 317.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-11-21 16:06:44 +0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-21 16:06:44 +0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-21 16:06:44 +0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-21 16:06:44 +0700
+
+
+Started GET "/assets/components/home_widget.self-c096c795ea0e70691c7b337dd4857e5fec73eb84705abec54b3cebcb636b9dbd.js?body=1" for ::1 at 2015-11-21 16:06:44 +0700
+
+
+Started GET "/assets/react.self-e3da6ecd157473bf7f78ed580d04670fe5ba81b643601f0ef7fadf7af64823ba.js?body=1" for ::1 at 2015-11-21 16:06:44 +0700
+
+
+Started GET "/assets/react_ujs.self-c42e5ee44bcda6910afca6fb40f99d9963074b3aefe72365ce90c24312e73b2b.js?body=1" for ::1 at 2015-11-21 16:06:44 +0700
+
+
+Started GET "/assets/components.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2015-11-21 16:06:44 +0700
+
+
+Started GET "/assets/utils.self-9aecfd3ccf85c24cbe29ad852433e96438da2f3e1f0d21a27d2c155c2f65372d.js?body=1" for ::1 at 2015-11-21 16:06:45 +0700
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for ::1 at 2015-11-21 16:06:45 +0700
+
+
+Started GET "/" for ::1 at 2015-11-21 16:15:56 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.5ms)
+Completed 200 OK in 80ms (Views: 78.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-11-21 16:15:56 +0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-21 16:15:56 +0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-21 16:15:56 +0700
+
+
+Started GET "/assets/react.self-e3da6ecd157473bf7f78ed580d04670fe5ba81b643601f0ef7fadf7af64823ba.js?body=1" for ::1 at 2015-11-21 16:15:56 +0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-21 16:15:56 +0700
+
+
+Started GET "/assets/react_ujs.self-c42e5ee44bcda6910afca6fb40f99d9963074b3aefe72365ce90c24312e73b2b.js?body=1" for ::1 at 2015-11-21 16:15:56 +0700
+
+
+Started GET "/assets/components/home_widget.self-c096c795ea0e70691c7b337dd4857e5fec73eb84705abec54b3cebcb636b9dbd.js?body=1" for ::1 at 2015-11-21 16:15:57 +0700
+
+
+Started GET "/assets/components.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2015-11-21 16:15:57 +0700
+
+
+Started GET "/assets/utils.self-9aecfd3ccf85c24cbe29ad852433e96438da2f3e1f0d21a27d2c155c2f65372d.js?body=1" for ::1 at 2015-11-21 16:15:57 +0700
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for ::1 at 2015-11-21 16:15:57 +0700
+
+
+Started GET "/" for ::1 at 2015-11-21 16:27:40 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.6ms)
+Completed 200 OK in 79ms (Views: 78.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-11-21 16:27:41 +0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-21 16:27:41 +0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-21 16:27:41 +0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-21 16:27:41 +0700
+
+
+Started GET "/assets/components/home_widget.self-c096c795ea0e70691c7b337dd4857e5fec73eb84705abec54b3cebcb636b9dbd.js?body=1" for ::1 at 2015-11-21 16:27:41 +0700
+
+
+Started GET "/assets/react.self-e3da6ecd157473bf7f78ed580d04670fe5ba81b643601f0ef7fadf7af64823ba.js?body=1" for ::1 at 2015-11-21 16:27:41 +0700
+
+
+Started GET "/assets/react_ujs.self-c42e5ee44bcda6910afca6fb40f99d9963074b3aefe72365ce90c24312e73b2b.js?body=1" for ::1 at 2015-11-21 16:27:41 +0700
+
+
+Started GET "/assets/components.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2015-11-21 16:27:41 +0700
+
+
+Started GET "/assets/utils.self-9aecfd3ccf85c24cbe29ad852433e96438da2f3e1f0d21a27d2c155c2f65372d.js?body=1" for ::1 at 2015-11-21 16:27:41 +0700
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for ::1 at 2015-11-21 16:27:41 +0700
+
+
+Started GET "/" for ::1 at 2015-11-21 16:28:03 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.3ms)
+Completed 200 OK in 73ms (Views: 71.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-11-21 16:28:03 +0700
+
+
+Started GET "/assets/react.self-e3da6ecd157473bf7f78ed580d04670fe5ba81b643601f0ef7fadf7af64823ba.js?body=1" for ::1 at 2015-11-21 16:28:03 +0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-21 16:28:03 +0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-21 16:28:03 +0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-21 16:28:03 +0700
+
+
+Started GET "/assets/react_ujs.self-c42e5ee44bcda6910afca6fb40f99d9963074b3aefe72365ce90c24312e73b2b.js?body=1" for ::1 at 2015-11-21 16:28:03 +0700
+
+
+Started GET "/assets/components/home_widget.self-c096c795ea0e70691c7b337dd4857e5fec73eb84705abec54b3cebcb636b9dbd.js?body=1" for ::1 at 2015-11-21 16:28:03 +0700
+
+
+Started GET "/assets/components.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2015-11-21 16:28:03 +0700
+
+
+Started GET "/assets/utils.self-9aecfd3ccf85c24cbe29ad852433e96438da2f3e1f0d21a27d2c155c2f65372d.js?body=1" for ::1 at 2015-11-21 16:28:03 +0700
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for ::1 at 2015-11-21 16:28:03 +0700
+  [1m[36mActiveRecord::SchemaMigration Load (1.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/" for ::1 at 2015-11-22 00:38:55 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (2.2ms)
+Completed 200 OK in 512ms (Views: 500.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/components/app.self-09f51aed01512c7789cb05939cc5d5e2b00c393dffade5d6b87bbd337e777ddb.js?body=1" for ::1 at 2015-11-22 00:38:56 +0700
+
+
+Started GET "/assets/components/post.self-c10bc01439d79f469a8f6906c46cc47adf763623a0a41b53c25592f1d47cb49d.js?body=1" for ::1 at 2015-11-22 00:38:56 +0700
+
+
+Started GET "/" for ::1 at 2015-11-22 01:09:25 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.3ms)
+Completed 200 OK in 283ms (Views: 282.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-22 01:09:25 +0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-11-22 01:09:25 +0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-22 01:09:25 +0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-22 01:09:25 +0700
+
+
+Started GET "/assets/react.self-e3da6ecd157473bf7f78ed580d04670fe5ba81b643601f0ef7fadf7af64823ba.js?body=1" for ::1 at 2015-11-22 01:09:25 +0700
+
+
+Started GET "/assets/components/app.self-ec75c8d57ad66859220df2e2c24b3d85f653c65708dc998a920a778c65c83a86.js?body=1" for ::1 at 2015-11-22 01:09:25 +0700
+
+
+Started GET "/assets/react_ujs.self-c42e5ee44bcda6910afca6fb40f99d9963074b3aefe72365ce90c24312e73b2b.js?body=1" for ::1 at 2015-11-22 01:09:25 +0700
+
+
+Started GET "/assets/components/post.self-6a263f1348ddee072e586e6a2bed2d841e40ede8f7c75d05756ac52b13c1ef63.js?body=1" for ::1 at 2015-11-22 01:09:25 +0700
+
+
+Started GET "/assets/components/home_widget.self-c096c795ea0e70691c7b337dd4857e5fec73eb84705abec54b3cebcb636b9dbd.js?body=1" for ::1 at 2015-11-22 01:09:25 +0700
+
+
+Started GET "/assets/components.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2015-11-22 01:09:25 +0700
+
+
+Started GET "/assets/utils.self-9aecfd3ccf85c24cbe29ad852433e96438da2f3e1f0d21a27d2c155c2f65372d.js?body=1" for ::1 at 2015-11-22 01:09:25 +0700
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for ::1 at 2015-11-22 01:09:25 +0700
+
+
+Started GET "/" for ::1 at 2015-11-22 01:10:06 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.2ms)
+Completed 200 OK in 207ms (Views: 206.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-11-22 01:10:06 +0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-22 01:10:06 +0700
+
+
+Started GET "/assets/components/app.self-b0fde6410fe3cb9eb6a5f5e1ddbe5bc39b9facf7b4c09162051710dfc02cd2f4.js?body=1" for ::1 at 2015-11-22 01:10:06 +0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-22 01:10:06 +0700
+
+
+Started GET "/assets/react.self-e3da6ecd157473bf7f78ed580d04670fe5ba81b643601f0ef7fadf7af64823ba.js?body=1" for ::1 at 2015-11-22 01:10:06 +0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-22 01:10:06 +0700
+
+
+Started GET "/assets/react_ujs.self-c42e5ee44bcda6910afca6fb40f99d9963074b3aefe72365ce90c24312e73b2b.js?body=1" for ::1 at 2015-11-22 01:10:06 +0700
+
+
+Started GET "/assets/components/home_widget.self-c096c795ea0e70691c7b337dd4857e5fec73eb84705abec54b3cebcb636b9dbd.js?body=1" for ::1 at 2015-11-22 01:10:06 +0700
+
+
+Started GET "/assets/components/post.self-6a263f1348ddee072e586e6a2bed2d841e40ede8f7c75d05756ac52b13c1ef63.js?body=1" for ::1 at 2015-11-22 01:10:06 +0700
+
+
+Started GET "/assets/components.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2015-11-22 01:10:06 +0700
+
+
+Started GET "/assets/utils.self-9aecfd3ccf85c24cbe29ad852433e96438da2f3e1f0d21a27d2c155c2f65372d.js?body=1" for ::1 at 2015-11-22 01:10:06 +0700
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for ::1 at 2015-11-22 01:10:06 +0700
+
+
+Started GET "/" for ::1 at 2015-11-22 01:10:34 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.2ms)
+Completed 200 OK in 206ms (Views: 205.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-11-22 01:10:34 +0700
+
+
+Started GET "/assets/react.self-e3da6ecd157473bf7f78ed580d04670fe5ba81b643601f0ef7fadf7af64823ba.js?body=1" for ::1 at 2015-11-22 01:10:34 +0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-22 01:10:34 +0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-22 01:10:34 +0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-22 01:10:34 +0700
+
+
+Started GET "/assets/react_ujs.self-c42e5ee44bcda6910afca6fb40f99d9963074b3aefe72365ce90c24312e73b2b.js?body=1" for ::1 at 2015-11-22 01:10:34 +0700
+
+
+Started GET "/assets/components/app.self-09f51aed01512c7789cb05939cc5d5e2b00c393dffade5d6b87bbd337e777ddb.js?body=1" for ::1 at 2015-11-22 01:10:34 +0700
+
+
+Started GET "/assets/components/home_widget.self-c096c795ea0e70691c7b337dd4857e5fec73eb84705abec54b3cebcb636b9dbd.js?body=1" for ::1 at 2015-11-22 01:10:34 +0700
+
+
+Started GET "/assets/components/post.self-6a263f1348ddee072e586e6a2bed2d841e40ede8f7c75d05756ac52b13c1ef63.js?body=1" for ::1 at 2015-11-22 01:10:34 +0700
+
+
+Started GET "/assets/components.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2015-11-22 01:10:34 +0700
+
+
+Started GET "/assets/utils.self-9aecfd3ccf85c24cbe29ad852433e96438da2f3e1f0d21a27d2c155c2f65372d.js?body=1" for ::1 at 2015-11-22 01:10:34 +0700
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for ::1 at 2015-11-22 01:10:34 +0700
+
+
+Started GET "/" for ::1 at 2015-11-22 14:44:23 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (3.5ms)
+Completed 200 OK in 1051ms (Views: 1045.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/components/post.self-2db30d728819b7b7029754e12fc1dc5ea8c29823d72559522c37c5603e7ac674.js?body=1" for ::1 at 2015-11-22 14:44:24 +0700
+
+
+Started GET "/assets/components/app.self-3926d7b2f07a98c00eac746c613cb6e8891975b148b402098481d24008f0510b.js?body=1" for ::1 at 2015-11-22 14:44:24 +0700
+
+
+Started GET "/home/component" for ::1 at 2015-11-22 14:44:24 +0700
+Processing by HomeController#component as */*
+  Rendered home/component.js.erb (0.8ms)
+Completed 200 OK in 24ms (Views: 23.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-11-22 14:44:33 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.2ms)
+Completed 200 OK in 69ms (Views: 68.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-11-22 14:44:33 +0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-22 14:44:33 +0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-22 14:44:33 +0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-22 14:44:33 +0700
+
+
+Started GET "/assets/react.self-e3da6ecd157473bf7f78ed580d04670fe5ba81b643601f0ef7fadf7af64823ba.js?body=1" for ::1 at 2015-11-22 14:44:33 +0700
+
+
+Started GET "/assets/react_ujs.self-c42e5ee44bcda6910afca6fb40f99d9963074b3aefe72365ce90c24312e73b2b.js?body=1" for ::1 at 2015-11-22 14:44:33 +0700
+
+
+Started GET "/assets/components/app.self-3926d7b2f07a98c00eac746c613cb6e8891975b148b402098481d24008f0510b.js?body=1" for ::1 at 2015-11-22 14:44:33 +0700
+
+
+Started GET "/assets/components/home_widget.self-c096c795ea0e70691c7b337dd4857e5fec73eb84705abec54b3cebcb636b9dbd.js?body=1" for ::1 at 2015-11-22 14:44:33 +0700
+
+
+Started GET "/assets/components/post.self-2db30d728819b7b7029754e12fc1dc5ea8c29823d72559522c37c5603e7ac674.js?body=1" for ::1 at 2015-11-22 14:44:33 +0700
+
+
+Started GET "/assets/components.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2015-11-22 14:44:33 +0700
+
+
+Started GET "/assets/utils.self-9aecfd3ccf85c24cbe29ad852433e96438da2f3e1f0d21a27d2c155c2f65372d.js?body=1" for ::1 at 2015-11-22 14:44:33 +0700
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for ::1 at 2015-11-22 14:44:33 +0700
+
+
+Started GET "/home/component" for ::1 at 2015-11-22 14:44:33 +0700
+Processing by HomeController#component as */*
+  Rendered home/component.js.erb (0.1ms)
+Completed 200 OK in 22ms (Views: 21.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-11-22 14:44:56 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.2ms)
+Completed 200 OK in 406ms (Views: 405.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-11-22 14:44:57 +0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-22 14:44:57 +0700
+
+
+Started GET "/assets/components/app.self-02d632995ae958af90e5b88f2c25fcfd3290f2aee7ddc6eed3a7f8183c13688a.js?body=1" for ::1 at 2015-11-22 14:44:57 +0700
+
+
+Started GET "/assets/react.self-e3da6ecd157473bf7f78ed580d04670fe5ba81b643601f0ef7fadf7af64823ba.js?body=1" for ::1 at 2015-11-22 14:44:57 +0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-22 14:44:57 +0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-22 14:44:57 +0700
+
+
+Started GET "/assets/react_ujs.self-c42e5ee44bcda6910afca6fb40f99d9963074b3aefe72365ce90c24312e73b2b.js?body=1" for ::1 at 2015-11-22 14:44:57 +0700
+
+
+Started GET "/assets/components/home_widget.self-c096c795ea0e70691c7b337dd4857e5fec73eb84705abec54b3cebcb636b9dbd.js?body=1" for ::1 at 2015-11-22 14:44:57 +0700
+
+
+Started GET "/assets/components/post.self-2db30d728819b7b7029754e12fc1dc5ea8c29823d72559522c37c5603e7ac674.js?body=1" for ::1 at 2015-11-22 14:44:57 +0700
+
+
+Started GET "/assets/components.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2015-11-22 14:44:57 +0700
+
+
+Started GET "/assets/utils.self-9aecfd3ccf85c24cbe29ad852433e96438da2f3e1f0d21a27d2c155c2f65372d.js?body=1" for ::1 at 2015-11-22 14:44:57 +0700
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for ::1 at 2015-11-22 14:44:57 +0700
+
+
+Started GET "/home/component" for ::1 at 2015-11-22 14:44:57 +0700
+Processing by HomeController#component as */*
+  Rendered home/component.js.erb (0.1ms)
+Completed 200 OK in 22ms (Views: 21.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-11-22 14:45:28 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.3ms)
+Completed 200 OK in 92ms (Views: 91.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-11-22 14:45:28 +0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-22 14:45:28 +0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-22 14:45:28 +0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-22 14:45:28 +0700
+
+
+Started GET "/assets/react.self-e3da6ecd157473bf7f78ed580d04670fe5ba81b643601f0ef7fadf7af64823ba.js?body=1" for ::1 at 2015-11-22 14:45:28 +0700
+
+
+Started GET "/assets/react_ujs.self-c42e5ee44bcda6910afca6fb40f99d9963074b3aefe72365ce90c24312e73b2b.js?body=1" for ::1 at 2015-11-22 14:45:28 +0700
+
+
+Started GET "/assets/components/app.self-02d632995ae958af90e5b88f2c25fcfd3290f2aee7ddc6eed3a7f8183c13688a.js?body=1" for ::1 at 2015-11-22 14:45:28 +0700
+
+
+Started GET "/assets/components/home_widget.self-c096c795ea0e70691c7b337dd4857e5fec73eb84705abec54b3cebcb636b9dbd.js?body=1" for ::1 at 2015-11-22 14:45:28 +0700
+
+
+Started GET "/assets/components/post.self-2db30d728819b7b7029754e12fc1dc5ea8c29823d72559522c37c5603e7ac674.js?body=1" for ::1 at 2015-11-22 14:45:28 +0700
+
+
+Started GET "/assets/components.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2015-11-22 14:45:28 +0700
+
+
+Started GET "/assets/utils.self-9aecfd3ccf85c24cbe29ad852433e96438da2f3e1f0d21a27d2c155c2f65372d.js?body=1" for ::1 at 2015-11-22 14:45:28 +0700
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for ::1 at 2015-11-22 14:45:28 +0700
+
+
+Started GET "/home/component" for ::1 at 2015-11-22 14:45:28 +0700
+Processing by HomeController#component as */*
+  Rendered home/component.js.erb (0.7ms)
+Completed 200 OK in 23ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-11-22 14:45:50 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.3ms)
+Completed 200 OK in 95ms (Views: 94.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-11-22 14:45:50 +0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-22 14:45:50 +0700
+
+
+Started GET "/assets/react.self-e3da6ecd157473bf7f78ed580d04670fe5ba81b643601f0ef7fadf7af64823ba.js?body=1" for ::1 at 2015-11-22 14:45:50 +0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-22 14:45:50 +0700
+
+
+Started GET "/assets/react_ujs.self-c42e5ee44bcda6910afca6fb40f99d9963074b3aefe72365ce90c24312e73b2b.js?body=1" for ::1 at 2015-11-22 14:45:50 +0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-22 14:45:50 +0700
+
+
+Started GET "/assets/components/app.self-02d632995ae958af90e5b88f2c25fcfd3290f2aee7ddc6eed3a7f8183c13688a.js?body=1" for ::1 at 2015-11-22 14:45:50 +0700
+
+
+Started GET "/assets/components/home_widget.self-c096c795ea0e70691c7b337dd4857e5fec73eb84705abec54b3cebcb636b9dbd.js?body=1" for ::1 at 2015-11-22 14:45:50 +0700
+
+
+Started GET "/assets/components/post.self-2db30d728819b7b7029754e12fc1dc5ea8c29823d72559522c37c5603e7ac674.js?body=1" for ::1 at 2015-11-22 14:45:50 +0700
+
+
+Started GET "/assets/components.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2015-11-22 14:45:50 +0700
+
+
+Started GET "/assets/utils.self-9aecfd3ccf85c24cbe29ad852433e96438da2f3e1f0d21a27d2c155c2f65372d.js?body=1" for ::1 at 2015-11-22 14:45:50 +0700
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for ::1 at 2015-11-22 14:45:50 +0700
+
+
+Started GET "/home/component" for ::1 at 2015-11-22 14:45:50 +0700
+Processing by HomeController#component as */*
+  Rendered home/component.js.erb (0.2ms)
+Completed 200 OK in 10251ms (Views: 24.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-11-22 14:47:06 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.2ms)
+Completed 200 OK in 418ms (Views: 416.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-11-22 14:47:07 +0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-22 14:47:07 +0700
+
+
+Started GET "/assets/components/app.self-693a48cc40261369edaad5235e589ccddc649addeaea28108e6b76397b665e93.js?body=1" for ::1 at 2015-11-22 14:47:07 +0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-22 14:47:07 +0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-22 14:47:07 +0700
+
+
+Started GET "/assets/react.self-e3da6ecd157473bf7f78ed580d04670fe5ba81b643601f0ef7fadf7af64823ba.js?body=1" for ::1 at 2015-11-22 14:47:07 +0700
+
+
+Started GET "/assets/react_ujs.self-c42e5ee44bcda6910afca6fb40f99d9963074b3aefe72365ce90c24312e73b2b.js?body=1" for ::1 at 2015-11-22 14:47:07 +0700
+
+
+Started GET "/assets/components/home_widget.self-c096c795ea0e70691c7b337dd4857e5fec73eb84705abec54b3cebcb636b9dbd.js?body=1" for ::1 at 2015-11-22 14:47:07 +0700
+
+
+Started GET "/assets/components/post.self-2db30d728819b7b7029754e12fc1dc5ea8c29823d72559522c37c5603e7ac674.js?body=1" for ::1 at 2015-11-22 14:47:07 +0700
+
+
+Started GET "/assets/components.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2015-11-22 14:47:07 +0700
+
+
+Started GET "/assets/utils.self-9aecfd3ccf85c24cbe29ad852433e96438da2f3e1f0d21a27d2c155c2f65372d.js?body=1" for ::1 at 2015-11-22 14:47:07 +0700
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for ::1 at 2015-11-22 14:47:07 +0700
+
+
+Started GET "/home/component" for ::1 at 2015-11-22 14:47:15 +0700
+Processing by HomeController#component as */*
+  Rendered home/component.js.erb (0.2ms)
+Completed 200 OK in 3733ms (Views: 26.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-11-22 15:15:12 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.3ms)
+Completed 200 OK in 91ms (Views: 90.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/component" for ::1 at 2015-11-22 15:15:12 +0700
+Processing by HomeController#component as */*
+  Rendered home/component.js.erb (0.2ms)
+Completed 200 OK in 100180ms (Views: 26.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-11-22 15:16:52 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.2ms)
+Completed 200 OK in 445ms (Views: 444.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-11-22 15:16:53 +0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-22 15:16:53 +0700
+
+
+Started GET "/assets/react.self-e3da6ecd157473bf7f78ed580d04670fe5ba81b643601f0ef7fadf7af64823ba.js?body=1" for ::1 at 2015-11-22 15:16:53 +0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-22 15:16:53 +0700
+
+
+Started GET "/assets/components/app.self-3eec5287d3fc7557ad675b9e08a3e1852317ce8f9a4718fe99a717ee641173ce.js?body=1" for ::1 at 2015-11-22 15:16:53 +0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-22 15:16:53 +0700
+
+
+Started GET "/assets/react_ujs.self-c42e5ee44bcda6910afca6fb40f99d9963074b3aefe72365ce90c24312e73b2b.js?body=1" for ::1 at 2015-11-22 15:16:53 +0700
+
+
+Started GET "/assets/components/home_widget.self-c096c795ea0e70691c7b337dd4857e5fec73eb84705abec54b3cebcb636b9dbd.js?body=1" for ::1 at 2015-11-22 15:16:53 +0700
+
+
+Started GET "/assets/components/post.self-2db30d728819b7b7029754e12fc1dc5ea8c29823d72559522c37c5603e7ac674.js?body=1" for ::1 at 2015-11-22 15:16:53 +0700
+
+
+Started GET "/assets/components.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2015-11-22 15:16:53 +0700
+
+
+Started GET "/assets/utils.self-9aecfd3ccf85c24cbe29ad852433e96438da2f3e1f0d21a27d2c155c2f65372d.js?body=1" for ::1 at 2015-11-22 15:16:53 +0700
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for ::1 at 2015-11-22 15:16:53 +0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-22 15:16:53 +0700
+
+
+Started GET "/assets/react.self-e3da6ecd157473bf7f78ed580d04670fe5ba81b643601f0ef7fadf7af64823ba.js?body=1" for ::1 at 2015-11-22 15:16:53 +0700
+
+
+Started GET "/assets/react_ujs.self-c42e5ee44bcda6910afca6fb40f99d9963074b3aefe72365ce90c24312e73b2b.js?body=1" for ::1 at 2015-11-22 15:16:53 +0700
+
+
+Started GET "/assets/components/home_widget.self-c096c795ea0e70691c7b337dd4857e5fec73eb84705abec54b3cebcb636b9dbd.js?body=1" for ::1 at 2015-11-22 15:16:53 +0700
+
+
+Started GET "/assets/components/post.self-2db30d728819b7b7029754e12fc1dc5ea8c29823d72559522c37c5603e7ac674.js?body=1" for ::1 at 2015-11-22 15:16:53 +0700
+
+
+Started GET "/assets/components.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2015-11-22 15:16:53 +0700
+
+
+Started GET "/assets/utils.self-9aecfd3ccf85c24cbe29ad852433e96438da2f3e1f0d21a27d2c155c2f65372d.js?body=1" for ::1 at 2015-11-22 15:16:53 +0700
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for ::1 at 2015-11-22 15:16:53 +0700
+
+
+Started GET "/home/component" for ::1 at 2015-11-22 15:16:53 +0700
+Processing by HomeController#component as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-11-22 15:18:49 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.2ms)
+Completed 200 OK in 450ms (Views: 449.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-11-22 15:18:50 +0700
+
+
+Started GET "/assets/components/app.self-7df7255fed56516a9eca02e9a356811e4471e766f0d6b59d3fe5193ed0169de8.js?body=1" for ::1 at 2015-11-22 15:18:50 +0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-22 15:18:50 +0700
+
+
+Started GET "/assets/react.self-e3da6ecd157473bf7f78ed580d04670fe5ba81b643601f0ef7fadf7af64823ba.js?body=1" for ::1 at 2015-11-22 15:18:50 +0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-22 15:18:50 +0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-22 15:18:50 +0700
+
+
+Started GET "/assets/react_ujs.self-c42e5ee44bcda6910afca6fb40f99d9963074b3aefe72365ce90c24312e73b2b.js?body=1" for ::1 at 2015-11-22 15:18:50 +0700
+
+
+Started GET "/assets/components/home_widget.self-c096c795ea0e70691c7b337dd4857e5fec73eb84705abec54b3cebcb636b9dbd.js?body=1" for ::1 at 2015-11-22 15:18:50 +0700
+
+
+Started GET "/assets/components/post.self-2db30d728819b7b7029754e12fc1dc5ea8c29823d72559522c37c5603e7ac674.js?body=1" for ::1 at 2015-11-22 15:18:50 +0700
+
+
+Started GET "/assets/components.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2015-11-22 15:18:50 +0700
+
+
+Started GET "/assets/utils.self-9aecfd3ccf85c24cbe29ad852433e96438da2f3e1f0d21a27d2c155c2f65372d.js?body=1" for ::1 at 2015-11-22 15:18:50 +0700
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for ::1 at 2015-11-22 15:18:50 +0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-22 15:18:50 +0700
+
+
+Started GET "/home/component" for ::1 at 2015-11-22 15:18:50 +0700
+Processing by HomeController#component as */*
+  Rendered home/component.js.erb (0.2ms)
+Completed 200 OK in 23ms (Views: 21.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-11-22 15:18:52 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.3ms)
+Completed 200 OK in 76ms (Views: 75.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-11-22 15:18:52 +0700
+
+
+Started GET "/assets/react_ujs.self-c42e5ee44bcda6910afca6fb40f99d9963074b3aefe72365ce90c24312e73b2b.js?body=1" for ::1 at 2015-11-22 15:18:52 +0700
+
+
+Started GET "/assets/react.self-e3da6ecd157473bf7f78ed580d04670fe5ba81b643601f0ef7fadf7af64823ba.js?body=1" for ::1 at 2015-11-22 15:18:52 +0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-22 15:18:52 +0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-22 15:18:52 +0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-22 15:18:52 +0700
+
+
+Started GET "/assets/components/app.self-7df7255fed56516a9eca02e9a356811e4471e766f0d6b59d3fe5193ed0169de8.js?body=1" for ::1 at 2015-11-22 15:18:52 +0700
+
+
+Started GET "/assets/components/home_widget.self-c096c795ea0e70691c7b337dd4857e5fec73eb84705abec54b3cebcb636b9dbd.js?body=1" for ::1 at 2015-11-22 15:18:52 +0700
+
+
+Started GET "/assets/components/post.self-2db30d728819b7b7029754e12fc1dc5ea8c29823d72559522c37c5603e7ac674.js?body=1" for ::1 at 2015-11-22 15:18:52 +0700
+
+
+Started GET "/assets/components.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2015-11-22 15:18:52 +0700
+
+
+Started GET "/assets/utils.self-9aecfd3ccf85c24cbe29ad852433e96438da2f3e1f0d21a27d2c155c2f65372d.js?body=1" for ::1 at 2015-11-22 15:18:52 +0700
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for ::1 at 2015-11-22 15:18:52 +0700
+
+
+Started GET "/home/component" for ::1 at 2015-11-22 15:18:52 +0700
+Processing by HomeController#component as */*
+  Rendered home/component.js.erb (0.1ms)
+Completed 200 OK in 22ms (Views: 21.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-11-22 15:19:19 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.3ms)
+Completed 200 OK in 436ms (Views: 434.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-11-22 15:19:20 +0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-22 15:19:20 +0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-22 15:19:20 +0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-22 15:19:20 +0700
+
+
+Started GET "/assets/react_ujs.self-c42e5ee44bcda6910afca6fb40f99d9963074b3aefe72365ce90c24312e73b2b.js?body=1" for ::1 at 2015-11-22 15:19:20 +0700
+
+
+Started GET "/assets/react.self-e3da6ecd157473bf7f78ed580d04670fe5ba81b643601f0ef7fadf7af64823ba.js?body=1" for ::1 at 2015-11-22 15:19:20 +0700
+
+
+Started GET "/assets/components/app.self-19d14a0c2777ff7898f3fbf6c46b36b8869f4f603dd5adbe7b494b7aeb8d8d3b.js?body=1" for ::1 at 2015-11-22 15:19:20 +0700
+
+
+Started GET "/assets/components/home_widget.self-c096c795ea0e70691c7b337dd4857e5fec73eb84705abec54b3cebcb636b9dbd.js?body=1" for ::1 at 2015-11-22 15:19:20 +0700
+
+
+Started GET "/assets/components/post.self-2db30d728819b7b7029754e12fc1dc5ea8c29823d72559522c37c5603e7ac674.js?body=1" for ::1 at 2015-11-22 15:19:20 +0700
+
+
+Started GET "/assets/components.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2015-11-22 15:19:20 +0700
+
+
+Started GET "/assets/utils.self-9aecfd3ccf85c24cbe29ad852433e96438da2f3e1f0d21a27d2c155c2f65372d.js?body=1" for ::1 at 2015-11-22 15:19:20 +0700
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for ::1 at 2015-11-22 15:19:20 +0700
+
+
+Started GET "/home/component" for ::1 at 2015-11-22 15:19:26 +0700
+Processing by HomeController#component as */*
+  Rendered home/component.js.erb (0.3ms)
+Completed 200 OK in 25ms (Views: 23.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-11-22 15:19:46 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.2ms)
+Completed 200 OK in 448ms (Views: 447.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-22 15:19:47 +0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-11-22 15:19:47 +0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-22 15:19:47 +0700
+
+
+Started GET "/assets/react_ujs.self-c42e5ee44bcda6910afca6fb40f99d9963074b3aefe72365ce90c24312e73b2b.js?body=1" for ::1 at 2015-11-22 15:19:47 +0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-22 15:19:47 +0700
+
+
+Started GET "/assets/react.self-e3da6ecd157473bf7f78ed580d04670fe5ba81b643601f0ef7fadf7af64823ba.js?body=1" for ::1 at 2015-11-22 15:19:47 +0700
+
+
+Started GET "/assets/components/app.self-a4d45e10c745d286abaf12664539ba2b0b2948b0ce11d6bf9dc1eef49e7d618b.js?body=1" for ::1 at 2015-11-22 15:19:47 +0700
+
+
+Started GET "/assets/components/home_widget.self-c096c795ea0e70691c7b337dd4857e5fec73eb84705abec54b3cebcb636b9dbd.js?body=1" for ::1 at 2015-11-22 15:19:47 +0700
+
+
+Started GET "/assets/components/post.self-2db30d728819b7b7029754e12fc1dc5ea8c29823d72559522c37c5603e7ac674.js?body=1" for ::1 at 2015-11-22 15:19:47 +0700
+
+
+Started GET "/assets/components.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2015-11-22 15:19:47 +0700
+
+
+Started GET "/assets/utils.self-9aecfd3ccf85c24cbe29ad852433e96438da2f3e1f0d21a27d2c155c2f65372d.js?body=1" for ::1 at 2015-11-22 15:19:47 +0700
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for ::1 at 2015-11-22 15:19:47 +0700
+
+
+Started GET "/home/component" for ::1 at 2015-11-22 15:19:49 +0700
+Processing by HomeController#component as */*
+  Rendered home/component.js.erb (0.2ms)
+Completed 200 OK in 23ms (Views: 22.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-11-22 15:20:15 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.3ms)
+Completed 200 OK in 459ms (Views: 458.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-11-22 15:20:15 +0700
+
+
+Started GET "/assets/components/app.self-821557732a0d384bcbe562bf51333d0c1aca92cd154669ecf97b373876ada4dc.js?body=1" for ::1 at 2015-11-22 15:20:15 +0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-22 15:20:15 +0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-22 15:20:15 +0700
+
+
+Started GET "/assets/react.self-e3da6ecd157473bf7f78ed580d04670fe5ba81b643601f0ef7fadf7af64823ba.js?body=1" for ::1 at 2015-11-22 15:20:15 +0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-22 15:20:15 +0700
+
+
+Started GET "/assets/react_ujs.self-c42e5ee44bcda6910afca6fb40f99d9963074b3aefe72365ce90c24312e73b2b.js?body=1" for ::1 at 2015-11-22 15:20:15 +0700
+
+
+Started GET "/assets/components/home_widget.self-c096c795ea0e70691c7b337dd4857e5fec73eb84705abec54b3cebcb636b9dbd.js?body=1" for ::1 at 2015-11-22 15:20:15 +0700
+
+
+Started GET "/assets/components/post.self-2db30d728819b7b7029754e12fc1dc5ea8c29823d72559522c37c5603e7ac674.js?body=1" for ::1 at 2015-11-22 15:20:15 +0700
+
+
+Started GET "/assets/components.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2015-11-22 15:20:15 +0700
+
+
+Started GET "/assets/utils.self-9aecfd3ccf85c24cbe29ad852433e96438da2f3e1f0d21a27d2c155c2f65372d.js?body=1" for ::1 at 2015-11-22 15:20:15 +0700
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for ::1 at 2015-11-22 15:20:15 +0700
+
+
+Started GET "/home/component" for ::1 at 2015-11-22 15:20:18 +0700
+Processing by HomeController#component as */*
+  Rendered home/component.js.erb (0.1ms)
+Completed 200 OK in 23ms (Views: 21.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-11-22 15:21:30 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.2ms)
+Completed 200 OK in 96ms (Views: 95.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-11-22 15:21:30 +0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-22 15:21:30 +0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-22 15:21:30 +0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-22 15:21:30 +0700
+
+
+Started GET "/assets/react.self-e3da6ecd157473bf7f78ed580d04670fe5ba81b643601f0ef7fadf7af64823ba.js?body=1" for ::1 at 2015-11-22 15:21:30 +0700
+
+
+Started GET "/assets/react_ujs.self-c42e5ee44bcda6910afca6fb40f99d9963074b3aefe72365ce90c24312e73b2b.js?body=1" for ::1 at 2015-11-22 15:21:30 +0700
+
+
+Started GET "/assets/components/app.self-821557732a0d384bcbe562bf51333d0c1aca92cd154669ecf97b373876ada4dc.js?body=1" for ::1 at 2015-11-22 15:21:30 +0700
+
+
+Started GET "/assets/components/home_widget.self-c096c795ea0e70691c7b337dd4857e5fec73eb84705abec54b3cebcb636b9dbd.js?body=1" for ::1 at 2015-11-22 15:21:30 +0700
+
+
+Started GET "/assets/components/post.self-2db30d728819b7b7029754e12fc1dc5ea8c29823d72559522c37c5603e7ac674.js?body=1" for ::1 at 2015-11-22 15:21:30 +0700
+
+
+Started GET "/assets/components.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2015-11-22 15:21:30 +0700
+
+
+Started GET "/assets/utils.self-9aecfd3ccf85c24cbe29ad852433e96438da2f3e1f0d21a27d2c155c2f65372d.js?body=1" for ::1 at 2015-11-22 15:21:30 +0700
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for ::1 at 2015-11-22 15:21:30 +0700
+
+
+Started GET "/home/component" for ::1 at 2015-11-22 15:21:32 +0700
+Processing by HomeController#component as */*
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `react_component' for #<HomeController:0x007fe79c890978>):
+  app/controllers/home_controller.rb:6:in `component'
+
+
+  Rendered /Users/hieupham/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.8ms)
+  Rendered /Users/hieupham/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.7ms)
+  Rendered /Users/hieupham/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.7ms)
+  Rendered /Users/hieupham/.rvm/gems/ruby-2.2.0@global/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (74.6ms)
+  Rendered /Users/hieupham/.rvm/gems/ruby-2.2.0@global/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/hieupham/.rvm/gems/ruby-2.2.0@global/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/hieupham/.rvm/gems/ruby-2.2.0@global/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/hieupham/.rvm/gems/ruby-2.2.0@global/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/hieupham/.rvm/gems/ruby-2.2.0@global/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (68.2ms)
+  Rendered /Users/hieupham/.rvm/gems/ruby-2.2.0@global/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/hieupham/.rvm/gems/ruby-2.2.0@global/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.8ms)
+  Rendered /Users/hieupham/.rvm/gems/ruby-2.2.0@global/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (158.0ms)
+
+
+Started GET "/" for ::1 at 2015-11-22 15:23:07 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.2ms)
+Completed 200 OK in 87ms (Views: 86.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-11-22 15:23:07 +0700
+
+
+Started GET "/assets/react.self-e3da6ecd157473bf7f78ed580d04670fe5ba81b643601f0ef7fadf7af64823ba.js?body=1" for ::1 at 2015-11-22 15:23:07 +0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-22 15:23:07 +0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-22 15:23:07 +0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-22 15:23:07 +0700
+
+
+Started GET "/assets/react_ujs.self-c42e5ee44bcda6910afca6fb40f99d9963074b3aefe72365ce90c24312e73b2b.js?body=1" for ::1 at 2015-11-22 15:23:07 +0700
+
+
+Started GET "/assets/components/app.self-821557732a0d384bcbe562bf51333d0c1aca92cd154669ecf97b373876ada4dc.js?body=1" for ::1 at 2015-11-22 15:23:07 +0700
+
+
+Started GET "/assets/components/home_widget.self-c096c795ea0e70691c7b337dd4857e5fec73eb84705abec54b3cebcb636b9dbd.js?body=1" for ::1 at 2015-11-22 15:23:07 +0700
+
+
+Started GET "/assets/components/post.self-2db30d728819b7b7029754e12fc1dc5ea8c29823d72559522c37c5603e7ac674.js?body=1" for ::1 at 2015-11-22 15:23:07 +0700
+
+
+Started GET "/assets/components.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2015-11-22 15:23:07 +0700
+
+
+Started GET "/assets/utils.self-9aecfd3ccf85c24cbe29ad852433e96438da2f3e1f0d21a27d2c155c2f65372d.js?body=1" for ::1 at 2015-11-22 15:23:07 +0700
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for ::1 at 2015-11-22 15:23:07 +0700
+
+
+Started GET "/home/component" for ::1 at 2015-11-22 15:23:10 +0700
+Processing by HomeController#component as */*
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-11-22 15:23:42 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (0.2ms)
+Completed 200 OK in 79ms (Views: 77.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-11-22 15:23:42 +0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-22 15:23:42 +0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-22 15:23:42 +0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-22 15:23:42 +0700
+
+
+Started GET "/assets/react.self-e3da6ecd157473bf7f78ed580d04670fe5ba81b643601f0ef7fadf7af64823ba.js?body=1" for ::1 at 2015-11-22 15:23:42 +0700
+
+
+Started GET "/assets/components/app.self-821557732a0d384bcbe562bf51333d0c1aca92cd154669ecf97b373876ada4dc.js?body=1" for ::1 at 2015-11-22 15:23:42 +0700
+
+
+Started GET "/assets/react_ujs.self-c42e5ee44bcda6910afca6fb40f99d9963074b3aefe72365ce90c24312e73b2b.js?body=1" for ::1 at 2015-11-22 15:23:42 +0700
+
+
+Started GET "/assets/components/home_widget.self-c096c795ea0e70691c7b337dd4857e5fec73eb84705abec54b3cebcb636b9dbd.js?body=1" for ::1 at 2015-11-22 15:23:42 +0700
+
+
+Started GET "/assets/components/post.self-2db30d728819b7b7029754e12fc1dc5ea8c29823d72559522c37c5603e7ac674.js?body=1" for ::1 at 2015-11-22 15:23:42 +0700
+
+
+Started GET "/assets/components.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2015-11-22 15:23:42 +0700
+
+
+Started GET "/assets/utils.self-9aecfd3ccf85c24cbe29ad852433e96438da2f3e1f0d21a27d2c155c2f65372d.js?body=1" for ::1 at 2015-11-22 15:23:42 +0700
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for ::1 at 2015-11-22 15:23:42 +0700
+
+
+Started GET "/home/component" for ::1 at 2015-11-22 15:23:45 +0700
+Processing by HomeController#component as */*
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-11-27 20:43:36 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.haml within layouts/application (2.2ms)
+Completed 200 OK in 546ms (Views: 537.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-11-27 20:43:37 +0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-27 20:43:37 +0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-27 20:43:37 +0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-27 20:43:37 +0700
+
+
+Started GET "/assets/react.self-e3da6ecd157473bf7f78ed580d04670fe5ba81b643601f0ef7fadf7af64823ba.js?body=1" for ::1 at 2015-11-27 20:43:37 +0700
+
+
+Started GET "/assets/components/home_widget.self-c096c795ea0e70691c7b337dd4857e5fec73eb84705abec54b3cebcb636b9dbd.js?body=1" for ::1 at 2015-11-27 20:43:37 +0700
+
+
+Started GET "/assets/react_ujs.self-c42e5ee44bcda6910afca6fb40f99d9963074b3aefe72365ce90c24312e73b2b.js?body=1" for ::1 at 2015-11-27 20:43:37 +0700
+
+
+Started GET "/assets/components.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2015-11-27 20:43:37 +0700
+
+
+Started GET "/assets/utils.self-9aecfd3ccf85c24cbe29ad852433e96438da2f3e1f0d21a27d2c155c2f65372d.js?body=1" for ::1 at 2015-11-27 20:43:37 +0700
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for ::1 at 2015-11-27 20:43:37 +0700
